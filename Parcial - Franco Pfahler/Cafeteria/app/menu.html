@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Aurora - Menú</title>
+  <link rel=" icon" href="../src/images/icon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/css/estiloMenu.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../src/images/logo.jpg" alt="Logo" width="40" class="me-2"> 
+          Café Aurora - Menú de Productos
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="filtroProductos">
+      <input type="text" id="filtro" placeholder="Buscar producto...">
+    </section>
+
+    <section id="listaProductos">
+      <ul id="productos">
+        <!-- Aquí van los productos, cada uno con botones y checkbox -->
+      </ul>
+    </section>
+
+    <button id="btnAgregar">Agregar Producto</button>
+
+    <section id="seccionAgregar" style="display: none;">
+      <input type="text" id="nuevoNombre" placeholder="Nombre del producto">
+      <input type="text" id="nuevoPrecio" placeholder="Precio">
+      <button id="btnGuardarNuevo">Guardar</button>
+    </section>
+
+    <p>Productos seleccionados: <span id="contadorSeleccionados">0</span></p>
+
+    <section id="recomendaciones">
+      <!-- Aquí se mostrarán las recomendaciones del día -->
+    </section>
+    
+  </main>
+
+  <footer class="footer-cafe">
+    <div class="container">
+      <p class="mb-1">Todos los derechos reservados © 2025 Café Aurora</p>
+      <p class="mb-1">Av. Siempre Viva 123, Buenos Aires · Tel: (011) 1234-5678</p>
+    </div>
+  </footer>
+
+  <script src="../src/js/menu.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf8f2;
+  color: #4b3832;
+}
+
+header {
+  background-color: #6f4e37;
+}
+
+.navbar-nav {
+  color: #fff !important;
+}
+
+.nav-link {
+  margin-left: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+color: #4b3832 !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #4b3832 !important;
+}
+
+main {
+  padding: 40px 20px;
+  background-color: #fdf8f2;
+  color: #4b3832;
+  min-height: 80vh;
+}
+
+#filtroProductos {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#filtro {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#filtro:focus {
+  border-color: #a9746e;
+}
+
+#listaProductos {
+  margin-bottom: 30px;
+}
+
+#productos {
+  list-style: none;
+  padding: 0;
+}
+
+#productos li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+#productos li:hover {
+  background-color: #f0e8e2;
+}
+
+#btnAgregar {
+  display: block;
+  margin: 0 auto 30px;
+  background-color: #a9746e;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#btnAgregar:hover {
+  background-color: #8b5e56;
+}
+
+#seccionAgregar {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#seccionAgregar input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#btnGuardarNuevo {
+  background-color: #a9746e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#btnGuardarNuevo:hover {
+  background-color: #8b5e56;
+}
+
+#contadorSeleccionados {
+  font-weight: bold;
+  color: #6f4e37;
+}
+
+#recomendaciones {
+  margin-top: 50px;
+  background-color: #fff9f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;  
+
+}
+
+#recomendaciones h3 {
+  color: #6f4e37;
+  margin-bottom: 20px;
+}
+
+.recomendacion {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0dcd7;
+
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer-cafe {
+  background-color: #6f4e37;
+  color: #fdf8f2;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.footer-cafe a {
+  color: #fdf8f2;
+  transition: color 0.3s ease;
+}
+
+.footer-cafe a:hover {
+  color: #d8c3a5;
+}
